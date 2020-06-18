@@ -1,0 +1,44 @@
+/*软键盘样式-------------*/  
+  
+/*软键盘父容器样式*/  
+.kb-div {  
+   border:2px solid #ccc;  
+   background: #f2f2f2;  
+   cursor: pointer;  
+   font: 12px "Arial" "Helvetica" "sans-serif";  
+   position: absolute;  
+   z-index: 100;  
+}  
+/*软键盘表格容器样式*/  
+.kb-table {  
+   border-collapse: separate;  
+   border-spacing: 3px;  
+}  
+/*软键盘单元格样式*/  
+.kb-table td{  
+   border-right: 1px solid #9F9F9F;  
+   border-bottom: 1px solid #9F9F9F;  
+   line-height: 18px !important;  
+   text-align: center;  
+  
+}  
+/*软键盘[数字]样式*/  
+.kb-key {  
+   background: white;  
+   padding:0 5px;  
+   width:18px;  
+}  
+/*软键盘[关闭，清除，大小写]样式*/  
+.kb-close,.kb-clear,.kb-caps,.kb-backspace{  
+   background: #ddd;  
+   color:#039;  
+   font-weight:bold;  
+   text-align: center;   
+   width:57px;  
+}  
+  
+/*软键盘单元格鼠标动作样式*/  
+td.kb-mouseover {  
+   background: url(img/time_date_bg.gif) repeat-x;  
+   color: #fff;  
+}
