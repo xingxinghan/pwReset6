@@ -3,6 +3,8 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+
 
 <title></title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +16,7 @@
 <script src="${pageContext.request.contextPath }/js/qwebchannel.js"></script>
 <style type="text/css">
 body {
-	background: url(images/bg-library.png) no-repeat center center;
+	background: url(${pageContext.request.contextPath }/images/bg-library.png) no-repeat center center;
 	background-attachment: fixed; 
 	background-size:cover;
 	overflow: hidden;

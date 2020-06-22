@@ -3,6 +3,8 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+
 
 <title>综合服务系统</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +16,7 @@
 <script src="${pageContext.request.contextPath }/js/qwebchannel.js"></script>
 <style type="text/css">
 body {
-	background: url(images/bg-library.png) no-repeat center center;
+	background: url(${pageContext.request.contextPath }/images/bg-library.png) no-repeat center center;
 	background-attachment: fixed; 
 	background-size:cover;
 	overflow: hidden;
@@ -73,9 +75,6 @@ button { /* 按钮美化 */
 
 
 <!-- 顶栏 -->
-<!-- <div id="top" class="row">	
-	<img src="images/netcenter.png" width="20%"/>
-</div> -->
 <div id="top" class="row">
 		<div class="col-md-2">	
 			<img style="display: inline-block; vertical-align: middle;" src="images/netcenter.png" width="200%"/>
